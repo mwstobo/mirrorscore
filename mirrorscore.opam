@@ -1,0 +1,17 @@
+opam-version: "2.0"
+name: "mirrorscore"
+version: "0.1.0"
+synopsis: "Check Arch Linux mirror scores"
+maintainer: "Matt Stobo <mwstobo@gmail.com>"
+authors: "Matt Stobo <mwstobo@gmail.com>"
+license: "MIT"
+homepage: "https://github.com/mwstobo/mirrorscore"
+bug-reports: "https://github.com/mwstobo/mirrorscore/issues"
+depends: [
+  "dune" {build}
+]
+build: ["dune" "build" "-p" name]
+dev-repo: "git+https://github.com/mwstobo/mirrorscore"
+url {
+  src: "file:///home/matt/code/mirrorscore"
+}
