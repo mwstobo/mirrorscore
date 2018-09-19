@@ -8,6 +8,10 @@ license: "MIT"
 homepage: "https://github.com/mwstobo/mirrorscore"
 bug-reports: "https://github.com/mwstobo/mirrorscore/issues"
 depends: [
+  "cohttp-lwt-unix"
+  "lwt"
+  "lwt_ssl"
+  "yojson"
   "dune" {build}
 ]
 build: ["dune" "build" "-p" name]
