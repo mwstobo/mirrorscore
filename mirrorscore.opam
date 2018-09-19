@@ -16,6 +16,3 @@ depends: [
 ]
 build: ["dune" "build" "-p" name]
 dev-repo: "git+https://github.com/mwstobo/mirrorscore"
-url {
-  src: "file:///home/matt/code/mirrorscore"
-}
