@@ -1,3 +1,4 @@
 (executable
  (name mirrorscore)
+ (public_name mirrorscore)
  (libraries cohttp-lwt-unix lwt_ssl lwt.unix str yojson))
